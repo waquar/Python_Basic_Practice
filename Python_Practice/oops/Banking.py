@@ -80,5 +80,5 @@ while True:
                 elif userchoice is 4:
                     break
 
-        elif userchoice is 3:
-         quit()
+    elif userchoice is 3:
+        quit()
