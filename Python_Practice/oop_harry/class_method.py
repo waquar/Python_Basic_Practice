@@ -21,3 +21,4 @@ print(emp.name, emp.salary)
 
 #it overrides class variable using class method decorator
 #first we have to call the decorator part and then we have to call function
+#when we dont want to use instance variable we can use class method
