@@ -29,5 +29,5 @@ prog.increaseSalary()
 print(prog.salary)
 
 
-# avoid using code duplicacy, try to use super keyword if code needs repitition
+# avoid using code duplicates, try to use super keyword if code needs repitition
 # every function if return type not given it will return none, nomatter what function is doing internally
