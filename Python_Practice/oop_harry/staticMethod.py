@@ -4,7 +4,6 @@ class Employee:
         self.name = name
         self.age =age
 
-
     @staticmethod
     def isopen(day):
         if day  is  'Sunday':
@@ -12,5 +11,5 @@ class Employee:
         else:
             return  False
 
-print(Employee.isopen('Sunday'))
 
+print(Employee.isopen('Sunday'))
