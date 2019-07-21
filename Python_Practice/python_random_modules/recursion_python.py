@@ -23,10 +23,10 @@ def fibonacci_num(num):
 
 print("enter number")
 num = int(input())
-#print(factorial_iteration(num))
+print(factorial_iteration(num))
 c = factorial_recursion(num)
 print(c)
 
-#print(fibonacci_num(num))
+print(fibonacci_num(num))
 
 

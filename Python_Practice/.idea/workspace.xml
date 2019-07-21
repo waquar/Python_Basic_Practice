@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffb4196d-16d4-482b-96f2-32cf56755f4b" name="Default Changelist" comment="added new package for other modules">
-      <change afterPath="$PROJECT_DIR$/python_random_modules/recursion_python.py" afterDir="false" />
+    <list default="true" id="ffb4196d-16d4-482b-96f2-32cf56755f4b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/python_random_modules/fstring.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +16,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_random_modules/recursion_python.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="220">
+              <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_random_modules/fstring.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -48,15 +57,16 @@
         <option value="$PROJECT_DIR$/oop_harry/inheritence.py" />
         <option value="$PROJECT_DIR$/oop_harry/Property Decorators_Setters_Deleters.py" />
         <option value="$PROJECT_DIR$/oop_harry/staticMethod.py" />
+        <option value="$PROJECT_DIR$/python_random_modules/fstring.py" />
         <option value="$PROJECT_DIR$/python_random_modules/recursion_python.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-90" />
-    <option name="y" value="24" />
-    <option name="width" value="1938" />
-    <option name="height" value="1029" />
+    <option name="x" value="300" />
+    <option name="y" value="186" />
+    <option name="width" value="1293" />
+    <option name="height" value="687" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -88,7 +98,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/python_random_modules/recursion_python.py" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -217,8 +227,8 @@
       <item itemvalue="Python.class_method" />
       <item itemvalue="Python.classmethod_alternativeconstructor" />
       <item itemvalue="Python.exampleone" />
-      <item itemvalue="Python.instance_class_var" />
       <item itemvalue="Python.inheritence" />
+      <item itemvalue="Python.instance_class_var" />
     </list>
     <recent_temporary>
       <list>
@@ -318,14 +328,20 @@
       <option name="project" value="LOCAL" />
       <updated>1563523078264</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added recursion">
+      <created>1563526771605</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1563526771606</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2603072" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24146147" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -341,7 +357,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="110" y="15" width="1076" height="546" id="Run" order="3" type="FLOATING" weight="0.25141472" />
+      <window_info anchor="right" x="138" y="31" width="1076" height="546" id="Run" order="3" type="FLOATING" weight="0.25141472" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -356,7 +372,8 @@
     <MESSAGE value="inheritence added" />
     <MESSAGE value="added setter, deleter, property" />
     <MESSAGE value="added new package for other modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="added new package for other modules" />
+    <MESSAGE value="added recursion" />
+    <option name="LAST_COMMIT_MESSAGE" value="added recursion" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/randompackage/hello.py">
@@ -432,8 +449,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_random_modules/recursion_python.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        <state relative-caret-position="220">
+          <caret line="11" column="51" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_random_modules/fstring.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
