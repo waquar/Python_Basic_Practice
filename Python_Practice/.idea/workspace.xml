@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffb4196d-16d4-482b-96f2-32cf56755f4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/python_random_modules/args_kwargs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_random_modules/args_kwargs.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_random_modules/args_kwargs.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +34,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_random_modules/args_kwargs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            <state relative-caret-position="540">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/python_random_modules/abstract_class_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -68,6 +77,7 @@
         <option value="$PROJECT_DIR$/oop_harry/staticMethod.py" />
         <option value="$PROJECT_DIR$/python_random_modules/fstring.py" />
         <option value="$PROJECT_DIR$/python_random_modules/recursion_python.py" />
+        <option value="$PROJECT_DIR$/python_random_modules/abstract_class_example.py" />
         <option value="$PROJECT_DIR$/python_random_modules/args_kwargs.py" />
       </list>
     </option>
@@ -92,6 +102,11 @@
             <path>
               <item name="Python_Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python_Practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python_Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python_Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="advance_python" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Python_Practice" type="b2602c69:ProjectViewProjectNode" />
@@ -128,6 +143,27 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.args_kwargs">
+    <configuration name="abstract_class_example" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python_Practice" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_random_modules" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_random_modules/abstract_class_example.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="args_kwargs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Python_Practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -212,41 +248,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="instance_class_var" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Python_Practice" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/oop_harry" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/oop_harry/instance_class_var.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.class_method" />
       <item itemvalue="Python.classmethod_alternativeconstructor" />
       <item itemvalue="Python.inheritence" />
-      <item itemvalue="Python.instance_class_var" />
       <item itemvalue="Python.args_kwargs" />
+      <item itemvalue="Python.abstract_class_example" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.args_kwargs" />
+        <item itemvalue="Python.abstract_class_example" />
         <item itemvalue="Python.classmethod_alternativeconstructor" />
         <item itemvalue="Python.inheritence" />
         <item itemvalue="Python.class_method" />
-        <item itemvalue="Python.instance_class_var" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +367,21 @@
       <option name="project" value="LOCAL" />
       <updated>1563731550994</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added args and kwargs">
+      <created>1563788158871</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1563788158871</updated>
+    </task>
+    <task id="LOCAL-00015" summary="added abstractbaseclass">
+      <created>1563788609076</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1563788609076</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -375,7 +404,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="2494" y="-18" width="717" height="364" id="Run" order="3" type="FLOATING" weight="0.25141472" />
+      <window_info anchor="right" x="2549" y="-94" width="717" height="364" id="Run" order="3" type="FLOATING" weight="0.25141472" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
@@ -392,7 +421,9 @@
     <MESSAGE value="added new package for other modules" />
     <MESSAGE value="added recursion" />
     <MESSAGE value="changes in recursion" />
-    <option name="LAST_COMMIT_MESSAGE" value="changes in recursion" />
+    <MESSAGE value="added args and kwargs" />
+    <MESSAGE value="added abstractbaseclass" />
+    <option name="LAST_COMMIT_MESSAGE" value="added abstractbaseclass" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/randompackage/hello.py">
@@ -480,10 +511,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/python_random_modules/abstract_class_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/python_random_modules/args_kwargs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" column="17" lean-forward="true" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        <state relative-caret-position="540">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

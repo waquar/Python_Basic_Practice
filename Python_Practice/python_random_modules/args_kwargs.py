@@ -3,12 +3,14 @@
 
 def funargs(normal , *args):
     #print(args[0])
+    print(type(args))
     print(normal)
     print('using args below:---------')
     for items in args:
         print(items)
 
 def funkwargs( *args, **kwargs):
+    print(type(kwargs))
     print("\nusings kwargs below:--------")
     for key, value  in kwargs.items():
         print(f"{key} is a  {value}")
