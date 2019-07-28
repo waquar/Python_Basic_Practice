@@ -1,0 +1,4 @@
+name,  age,  dateofbirth
+waquar,26,31-07-1992
+shabih,19,03-09-2000
+shadab,31,02-04-1988
