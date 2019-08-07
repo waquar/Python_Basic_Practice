@@ -11,10 +11,9 @@ def speak(text):
 if __name__ == '__main__':
     speak('Today news are these')
     news_json = requests.get(url).text
-    news_python = json.loads(news_json)
+    news_python = json.loads(news_json)                                                               #converts it to python readable text
     articles = news_python['articles']
     for items in articles:
-        print(len(items))
         print(items['title'])
         print(items['url'])
         speak(items['content'])
