@@ -1,6 +1,6 @@
 import requests
 
-r = requests.get('https://financialmodelingprep.com/api/v3/company/profile/AAPL')    #get gets the result from url
+r = requests.get('https://financialmodelingprep.com/api/v3/company/profile/AAPLE')    #get gets the result from url
 print(r.text)      #returns data in text
 print(r.status_code)
 
