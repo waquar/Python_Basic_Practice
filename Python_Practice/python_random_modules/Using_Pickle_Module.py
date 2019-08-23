@@ -20,3 +20,4 @@ myfruits = pickle.load(file_fruit)                      #used for loading the pi
 print(myfruits)
 print(type(myfruits))
 
+
