@@ -7,6 +7,11 @@ data = []
 
 while True:
     guess = int(input("Please enter your guess: "))
+    if guess < num:
+        a = num - guess
+    else:
+        a = guess - num
+
     data.append(guess)
     attempt += 1
 
@@ -15,11 +20,11 @@ while True:
             print("nice guess after thismuch attempt : - ", attempt)
             print("u used these data", data)
             exit()
-        elif guess - num < 5 and num -guess <5:
+        elif a < 5:
             print("hottest")
-        elif guess - num < 15 and num-guess <5:
+        elif a < 8 :
             print("hotter")
-        elif guess - num < 20 and num-guess <5:
+        elif a < 11 :
             print("hot")
         else:
             print("Your guess is too high")
