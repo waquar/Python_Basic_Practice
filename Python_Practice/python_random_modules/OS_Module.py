@@ -13,4 +13,6 @@ import os
 #print(os.path.isfile("waq.txt"))                       returns if it is file or not
 #print(os.path.isdir("waq.txt"))                       returns if it is directory or not
 
-
+path = "D://"
+for items in range(1):
+    print(len(os.listdir(path)), os.listdir(path))
