@@ -18,7 +18,7 @@ while True:
     if guess < 100:
         if guess == num:
             print("nice guess after thismuch attempt : - ", attempt)
-            print("u used these data", data)
+            print("your last two data", data[-2:])
             exit()
         elif a < 5:
             print("hottest")
