@@ -1,0 +1,49 @@
+(0, train_no              1 4 3 1 5
+train_name    intercity express
+from                   bareilly
+to                        Delhi
+via                       patna
+platform                      3
+Name: 0, dtype: object)(1, train_no                 1 4 3 1 6
+train_name    amritsar howrah mail
+from                      Amritsar
+to                          Howrah
+via                        Lucknow
+platform                         7
+Name: 1, dtype: object)(2, train_no                    2 4 3 1 5
+train_name    patna intercity express
+from                            patna
+to                              Delhi
+via                         Ghaziabad
+platform                           11
+Name: 2, dtype: object)(3, train_no       2 4 3 1 6
+train_name    kurla mail
+from               kurla
+to              bareilly
+via              chennai
+platform              15
+Name: 3, dtype: object)(4, train_no            3 4 3 1 5
+train_name    banaras express
+from                  banaras
+to                    lucknow
+via                 Ghaziabad
+platform                   19
+Name: 4, dtype: object)(5, train_no                3 4 3 1 6
+train_name    chennai howrah mail
+from                      chennai
+to                         Howrah
+via                       Lucknow
+platform                       23
+Name: 5, dtype: object)(6, train_no           4 4 3 1 5
+train_name    kerala express
+from                  kerala
+to                     patna
+via                tamilnadu
+platform                  27
+Name: 6, dtype: object)(7, train_no                  4 4 3 1 6
+train_name    tamilnadu howrah mail
+from                      tamilnadu
+to                           Howrah
+via                         chennai
+platform                         31
+Name: 7, dtype: object)

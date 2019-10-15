@@ -26,12 +26,15 @@ class SavingAccount():
             return  False
 
     def withdraw(self, withdrawlAmount):
+        
         if withdrawlAmount > self.savingAccounts[self.accountNumber][1]:
             print('insufficient amount')
         else:
             self.savingAccounts[self.accountNumber][1] -= withdrawlAmount
             print("withdrawl successful")
             self.displayBalance()
+
+
 
     def deposit(self, depositAmount):
         self.savingAccounts[self.accountNumber][1 ]  += depositAmount
